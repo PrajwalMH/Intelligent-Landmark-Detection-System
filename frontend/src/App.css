@@ -1,0 +1,41 @@
+/* frontend/src/App.css */
+.app {
+  font-family: system-ui, sans-serif;
+  padding: 20px;
+}
+
+.controls {
+  margin-bottom: 20px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.error {
+  color: red;
+}
+
+.image-wrapper {
+  margin-top: 20px;
+}
+
+.image-container {
+  position: relative;
+  display: inline-block;
+  max-width: 600px;
+}
+
+.image {
+  max-width: 100%;
+  display: block;
+}
+
+.bbox-inner {
+  position: absolute;
+  border: 3px solid red;
+  box-sizing: border-box;
+}
+.label {
+  margin-top: 10px;
+  font-weight: 600;
+}
