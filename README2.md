@@ -1,1 +1,0 @@
-# Intelligent-Landmark-Detection-System
